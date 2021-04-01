@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+<title>git.samba.org - samba-svnmirror.git/rss log</title>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=summary</link>
+<description>Mirror of the Samba SVN repository</description>
+<language>en</language>
+<managingEditor>Samba</managingEditor>
+<image>
+<url>//www.samba.org/samba/style/2010/samba_2010_logo_transparent_151x27.png</url>
+<title>git.samba.org - samba-svnmirror.git/rss log</title>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=summary</link>
+</image>
+<pubDate>Thu, 10 Jan 2008 15:36:35 +0000</pubDate>
+<lastBuildDate>Thu, 10 Jan 2008 15:36:35 +0000</lastBuildDate>
+<generator>gitweb v.2.25.1/2.25.1</generator>
+<item>
+<title>ldb: Build and install python modules when possible.</title>
+<author>jelmer &lt;jelmer@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Thu, 10 Jan 2008 15:36:35 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=71347dd266af04c903fecd5bd8d5cc13eba614b9</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=71347dd266af04c903fecd5bd8d5cc13eba614b9</link>
+<description>ldb: Build and install python modules when possible.</description>
+<content:encoded><![CDATA[
+<pre>
+ldb: Build and install python modules when possible.
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26701 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/ldb/Makefile.in;fp=source/lib/ldb/Makefile.in;h=8be5d11958ae252076356ed69cdc1e023f7a96bc;hp=4788c02598c95f3c87b4ff1b1bce67d774395f49;hb=71347dd266af04c903fecd5bd8d5cc13eba614b9;hpb=1dbdc5a5882bfb5d5b4803acc3deac81eee41f8e" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/ldb/Makefile.in;h=71347dd266af04c903fecd5bd8d5cc13eba614b9" title="history">H</a>] source/lib/ldb/Makefile.in</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/ldb/configure.ac;fp=source/lib/ldb/configure.ac;h=62a840e561c3551134da6a0d6489da987110c701;hp=73966e8f93316243ecb632bbbe85526df34bdf92;hb=71347dd266af04c903fecd5bd8d5cc13eba614b9;hpb=1dbdc5a5882bfb5d5b4803acc3deac81eee41f8e" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/ldb/configure.ac;h=71347dd266af04c903fecd5bd8d5cc13eba614b9" title="history">H</a>] source/lib/ldb/configure.ac</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>tdb: Build and install Python bindings when possible.</title>
+<author>jelmer &lt;jelmer@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Thu, 10 Jan 2008 15:17:26 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=1dbdc5a5882bfb5d5b4803acc3deac81eee41f8e</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=1dbdc5a5882bfb5d5b4803acc3deac81eee41f8e</link>
+<description>tdb: Build and install Python bindings when possible.</description>
+<content:encoded><![CDATA[
+<pre>
+tdb: Build and install Python bindings when possible.
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26700 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/tdb/Makefile.in;fp=source/lib/tdb/Makefile.in;h=c98d7e04972f49dc8809335a851db7b0762b5bad;hp=a60b9a67bf5b11475a14838a044ac1e61659f495;hb=1dbdc5a5882bfb5d5b4803acc3deac81eee41f8e;hpb=cfb59c883f5cdf1d27d0a90d7b9e0249f29a7319" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/tdb/Makefile.in;h=1dbdc5a5882bfb5d5b4803acc3deac81eee41f8e" title="history">H</a>] source/lib/tdb/Makefile.in</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/tdb/configure.ac;fp=source/lib/tdb/configure.ac;h=5747107f38d1beb178a04e8df16941458316561b;hp=3237d29fb04e1c45a59057562c9f552dcdf43a48;hb=1dbdc5a5882bfb5d5b4803acc3deac81eee41f8e;hpb=cfb59c883f5cdf1d27d0a90d7b9e0249f29a7319" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/tdb/configure.ac;h=1dbdc5a5882bfb5d5b4803acc3deac81eee41f8e" title="history">H</a>] source/lib/tdb/configure.ac</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/tdb/tdb.py;fp=source/lib/tdb/tdb.py;h=0effa3ff98f02057795b001e0428683b63fce24a;hp=0a803ac0bab2a30bebc1ff9520e7c09a245aa65b;hb=1dbdc5a5882bfb5d5b4803acc3deac81eee41f8e;hpb=cfb59c883f5cdf1d27d0a90d7b9e0249f29a7319" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/tdb/tdb.py;h=1dbdc5a5882bfb5d5b4803acc3deac81eee41f8e" title="history">H</a>] source/lib/tdb/tdb.py</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/tdb/tdb_wrap.c;fp=source/lib/tdb/tdb_wrap.c;h=6a5b7feffc25579a401bf59d8cb41cc0ccf36376;hp=7e38a976fffa51d8c29fbf15dbfc4b0fcbbb7df4;hb=1dbdc5a5882bfb5d5b4803acc3deac81eee41f8e;hpb=cfb59c883f5cdf1d27d0a90d7b9e0249f29a7319" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/tdb/tdb_wrap.c;h=1dbdc5a5882bfb5d5b4803acc3deac81eee41f8e" title="history">H</a>] source/lib/tdb/tdb_wrap.c</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>Some minor cosmetics for pidl samba3 server code.</title>
+<author>gd &lt;gd@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Wed, 9 Jan 2008 11:28:53 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=cfb59c883f5cdf1d27d0a90d7b9e0249f29a7319</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=cfb59c883f5cdf1d27d0a90d7b9e0249f29a7319</link>
+<description>Some minor cosmetics for pidl samba3 server code.</description>
+<content:encoded><![CDATA[
+<pre>
+Some minor cosmetics for pidl samba3 server code.
+
+Guenther
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26699 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/pidl/lib/Parse/Pidl/Samba3/ServerNDR.pm;fp=source/pidl/lib/Parse/Pidl/Samba3/ServerNDR.pm;h=47312bc83d73add15b11946b6ee193b616a0c2b5;hp=a07d0ddc6c90694d7b73b529f34db5a9723480a9;hb=cfb59c883f5cdf1d27d0a90d7b9e0249f29a7319;hpb=e4d8c76304dc16aa46c12c830685648f1a9e2175" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/pidl/lib/Parse/Pidl/Samba3/ServerNDR.pm;h=cfb59c883f5cdf1d27d0a90d7b9e0249f29a7319" title="history">H</a>] source/pidl/lib/Parse/Pidl/Samba3/ServerNDR.pm</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>Prettify samba3 client code a little more.</title>
+<author>gd &lt;gd@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Wed, 9 Jan 2008 10:56:07 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=e4d8c76304dc16aa46c12c830685648f1a9e2175</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=e4d8c76304dc16aa46c12c830685648f1a9e2175</link>
+<description>Prettify samba3 client code a little more.</description>
+<content:encoded><![CDATA[
+<pre>
+Prettify samba3 client code a little more.
+
+Guenther
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26698 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/pidl/lib/Parse/Pidl/Samba3/ClientNDR.pm;fp=source/pidl/lib/Parse/Pidl/Samba3/ClientNDR.pm;h=b7372a802aaa81b0833f096ce038c77847e770c6;hp=01b77c0c9fd6c0e15b545d858ab7950190fa78f0;hb=e4d8c76304dc16aa46c12c830685648f1a9e2175;hpb=0334474fbc5988ec753beb151a99ef8afaf69fe6" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/pidl/lib/Parse/Pidl/Samba3/ClientNDR.pm;h=e4d8c76304dc16aa46c12c830685648f1a9e2175" title="history">H</a>] source/pidl/lib/Parse/Pidl/Samba3/ClientNDR.pm</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>Leak less memory into the ldb context.</title>
+<author>abartlet &lt;abartlet@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Wed, 9 Jan 2008 05:36:02 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=0334474fbc5988ec753beb151a99ef8afaf69fe6</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=0334474fbc5988ec753beb151a99ef8afaf69fe6</link>
+<description>Leak less memory into the ldb context.</description>
+<content:encoded><![CDATA[
+<pre>
+Leak less memory into the ldb context.
+
+(Trying to chase down memory leaks in provision)
+
+Andrew Bartlett
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26697 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/dsdb/schema/schema_init.c;fp=source/dsdb/schema/schema_init.c;h=6a7463951e57a03ff658e73f0950693d14bfbca1;hp=3dd81fb822597f43145aadc102a8d34eda13d854;hb=0334474fbc5988ec753beb151a99ef8afaf69fe6;hpb=8cbebefafacd8d00f73c393eaef5d3d34293343c" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/dsdb/schema/schema_init.c;h=0334474fbc5988ec753beb151a99ef8afaf69fe6" title="history">H</a>] source/dsdb/schema/schema_init.c</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>Some more minor pidl samba3 client cosmetics.</title>
+<author>gd &lt;gd@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Tue, 8 Jan 2008 22:56:44 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=8cbebefafacd8d00f73c393eaef5d3d34293343c</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=8cbebefafacd8d00f73c393eaef5d3d34293343c</link>
+<description>Some more minor pidl samba3 client cosmetics.</description>
+<content:encoded><![CDATA[
+<pre>
+Some more minor pidl samba3 client cosmetics.
+
+Guenther
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26696 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/pidl/lib/Parse/Pidl/Samba3/ClientNDR.pm;fp=source/pidl/lib/Parse/Pidl/Samba3/ClientNDR.pm;h=01b77c0c9fd6c0e15b545d858ab7950190fa78f0;hp=d6b6296bd8d33e0ebd386cf4728f36eb6ebdadf5;hb=8cbebefafacd8d00f73c393eaef5d3d34293343c;hpb=6e49b2e2920576ba1d84ff8b547c95429efb4455" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/pidl/lib/Parse/Pidl/Samba3/ClientNDR.pm;h=8cbebefafacd8d00f73c393eaef5d3d34293343c" title="history">H</a>] source/pidl/lib/Parse/Pidl/Samba3/ClientNDR.pm</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>Cosmetic fix for pidl generated samba3 client code.</title>
+<author>gd &lt;gd@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Tue, 8 Jan 2008 17:02:53 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=6e49b2e2920576ba1d84ff8b547c95429efb4455</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=6e49b2e2920576ba1d84ff8b547c95429efb4455</link>
+<description>Cosmetic fix for pidl generated samba3 client code.</description>
+<content:encoded><![CDATA[
+<pre>
+Cosmetic fix for pidl generated samba3 client code.
+
+Guenther
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26695 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/pidl/lib/Parse/Pidl/Samba3/ClientNDR.pm;fp=source/pidl/lib/Parse/Pidl/Samba3/ClientNDR.pm;h=d6b6296bd8d33e0ebd386cf4728f36eb6ebdadf5;hp=e174f77542bad845af458bb061f177b07dfbba07;hb=6e49b2e2920576ba1d84ff8b547c95429efb4455;hpb=7e34a7f62ba32ec8db19ab51100e732f85ce6285" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/pidl/lib/Parse/Pidl/Samba3/ClientNDR.pm;h=6e49b2e2920576ba1d84ff8b547c95429efb4455" title="history">H</a>] source/pidl/lib/Parse/Pidl/Samba3/ClientNDR.pm</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>asn1: Fix header and some typo&#39;s.</title>
+<author>jelmer &lt;jelmer@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Tue, 8 Jan 2008 14:27:40 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=7e34a7f62ba32ec8db19ab51100e732f85ce6285</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=7e34a7f62ba32ec8db19ab51100e732f85ce6285</link>
+<description>asn1: Fix header and some typo&#39;s.</description>
+<content:encoded><![CDATA[
+<pre>
+asn1: Fix header and some typo&#39;s.
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26694 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/libcli/util/asn1.c;fp=source/libcli/util/asn1.c;h=aad55382d9b31613546ce7a150a99e4f5cd618ec;hp=ca6f0dc031c1621f084ed459c1dc996204e1872b;hb=7e34a7f62ba32ec8db19ab51100e732f85ce6285;hpb=ca742924012dd7233a1a13deac6ecd4242ce1694" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/libcli/util/asn1.c;h=7e34a7f62ba32ec8db19ab51100e732f85ce6285" title="history">H</a>] source/libcli/util/asn1.c</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>Add (untested) libnet_rpc_groupdel function.</title>
+<author>mimir &lt;mimir@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Tue, 8 Jan 2008 10:20:44 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=ca742924012dd7233a1a13deac6ecd4242ce1694</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=ca742924012dd7233a1a13deac6ecd4242ce1694</link>
+<description>Add (untested) libnet_rpc_groupdel function.</description>
+<content:encoded><![CDATA[
+<pre>
+Add (untested) libnet_rpc_groupdel function.
+
+
+rafal
+
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26693 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/libnet/groupman.c;fp=source/libnet/groupman.c;h=1e12c8771370a29e088ac220c630ca6996562a73;hp=de0ae0af94e58742ca972caa3ab5da18c621a46d;hb=ca742924012dd7233a1a13deac6ecd4242ce1694;hpb=8a5e2945df0e4f094ac3e2560b4ad2cc878cc764" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/libnet/groupman.c;h=ca742924012dd7233a1a13deac6ecd4242ce1694" title="history">H</a>] source/libnet/groupman.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/libnet/groupman.h;fp=source/libnet/groupman.h;h=cd4452e73c69c57499a22bf082a86376aed56116;hp=0acb02de5a41cf20271a9c0e15ba40a17dcd86c8;hb=ca742924012dd7233a1a13deac6ecd4242ce1694;hpb=8a5e2945df0e4f094ac3e2560b4ad2cc878cc764" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/libnet/groupman.h;h=ca742924012dd7233a1a13deac6ecd4242ce1694" title="history">H</a>] source/libnet/groupman.h</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>registry: Treat key and value names case-insensitively.</title>
+<author>jelmer &lt;jelmer@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Mon, 7 Jan 2008 23:41:55 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=8a5e2945df0e4f094ac3e2560b4ad2cc878cc764</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=8a5e2945df0e4f094ac3e2560b4ad2cc878cc764</link>
+<description>registry: Treat key and value names case-insensitively.</description>
+<content:encoded><![CDATA[
+<pre>
+registry: Treat key and value names case-insensitively.
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26692 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/ldb.c;fp=source/lib/registry/ldb.c;h=259315cc3955d93f87e776b9b8433084642c0af6;hp=1e345ba9f35ff0170204250847910afdc4da0903;hb=8a5e2945df0e4f094ac3e2560b4ad2cc878cc764;hpb=39719bb5b3ca6b22e7652b65d7e0c893f586bb58" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/ldb.c;h=8a5e2945df0e4f094ac3e2560b4ad2cc878cc764" title="history">H</a>] source/lib/registry/ldb.c</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>registry: Add subkeys required for Server Manager Alerts and Peplication. See bugs... </title>
+<author>jelmer &lt;jelmer@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Mon, 7 Jan 2008 22:34:53 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=39719bb5b3ca6b22e7652b65d7e0c893f586bb58</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=39719bb5b3ca6b22e7652b65d7e0c893f586bb58</link>
+<description>registry: Add subkeys required for Server Manager Alerts and Peplication. See bugs... </description>
+<content:encoded><![CDATA[
+<pre>
+registry: Add subkeys required for Server Manager Alerts and Peplication. See bugs 4934 and 4935.
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26691 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/setup/provision.reg;fp=source/setup/provision.reg;h=892b5ec50c236fb658c59905478a85eaa6e6435f;hp=0e657f3e6ad3a77fc0f9c87a980845b49a7964d0;hb=39719bb5b3ca6b22e7652b65d7e0c893f586bb58;hpb=2ce51cc21ad8256d9e5dbcb3f2b619b31937cd85" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/setup/provision.reg;h=39719bb5b3ca6b22e7652b65d7e0c893f586bb58" title="history">H</a>] source/setup/provision.reg</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>torture: Move torture_context_init() to the ui.c, where all functions related to... </title>
+<author>jelmer &lt;jelmer@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Mon, 7 Jan 2008 22:34:46 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=2ce51cc21ad8256d9e5dbcb3f2b619b31937cd85</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=2ce51cc21ad8256d9e5dbcb3f2b619b31937cd85</link>
+<description>torture: Move torture_context_init() to the ui.c, where all functions related to... </description>
+<content:encoded><![CDATA[
+<pre>
+torture: Move torture_context_init() to the ui.c, where all functions related to it are.
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26690 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/torture/torture.c;fp=source/torture/torture.c;h=23b8ee31436881144fff09989f31510601cd31a0;hp=b471135ce119a4b476f8799fd324c5e38d91f352;hb=2ce51cc21ad8256d9e5dbcb3f2b619b31937cd85;hpb=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/torture/torture.c;h=2ce51cc21ad8256d9e5dbcb3f2b619b31937cd85" title="history">H</a>] source/torture/torture.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/torture/ui.c;fp=source/torture/ui.c;h=a7025aac95281f4829a95ddb56fdd2dca9294cec;hp=66722a4cae0f23edf63f03f3f7947cd796fec752;hb=2ce51cc21ad8256d9e5dbcb3f2b619b31937cd85;hpb=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/torture/ui.c;h=2ce51cc21ad8256d9e5dbcb3f2b619b31937cd85" title="history">H</a>] source/torture/ui.c</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>registry: Return max_subkeynamelen, max_valnamelen and max_valbufsize in getkeyinfo().</title>
+<author>jelmer &lt;jelmer@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Mon, 7 Jan 2008 14:11:29 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0</link>
+<description>registry: Return max_subkeynamelen, max_valnamelen and max_valbufsize in getkeyinfo().</description>
+<content:encoded><![CDATA[
+<pre>
+registry: Return max_subkeynamelen, max_valnamelen and max_valbufsize in getkeyinfo().
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26689 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/dir.c;fp=source/lib/registry/dir.c;h=a13e3753b7f0bac4010c0f351d6b76efdccd7a83;hp=2f00d2fea01b8dc64139f0cb2e9b1a915d462085;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/dir.c;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/dir.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/hive.c;fp=source/lib/registry/hive.c;h=bbe510772cc9a714e90b631ef81229f261fc5ce7;hp=d7d12076f33250ad0e84bd3c011cff9a4586c17b;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/hive.c;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/hive.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/hive.h;fp=source/lib/registry/hive.h;h=6d9a69c7c5dfcfac208132917e8d074460bdb7d6;hp=1e05f6b0134e0f29949263066808018bb3ef7155;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/hive.h;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/hive.h</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/interface.c;fp=source/lib/registry/interface.c;h=a18fd2c28c88fa61fc07cb66d5b941721c0d67fa;hp=b914fbab305b6e9a01ed660cdce4fb00ded6a51c;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/interface.c;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/interface.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/ldb.c;fp=source/lib/registry/ldb.c;h=1e345ba9f35ff0170204250847910afdc4da0903;hp=c9697ddb4cac1944a36f9bd8a12a55a1ac858edf;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/ldb.c;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/ldb.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/local.c;fp=source/lib/registry/local.c;h=fa59f255966c0154fd870f2f0499efd0dc9d86e6;hp=35724e7ea6ef210366e78114730cf05c116968e0;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/local.c;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/local.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/patchfile.c;fp=source/lib/registry/patchfile.c;h=b6ad7dfb1099c72eed4ccdbcd20f8ee80547e7f4;hp=8a417d5935f32d4496b03ed8b43ab746c0cb938e;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/patchfile.c;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/patchfile.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/regf.c;fp=source/lib/registry/regf.c;h=9b126cc8084fe4d08748c6ce000ee5138dd3e224;hp=9264339a6c8b6cc8c3ae34ce7d208e69d600aece;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/regf.c;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/regf.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/registry.h;fp=source/lib/registry/registry.h;h=fac9180378340ffc92b347632226a2bc52fae994;hp=8273333b242bf06eb60a530c61caaf825d0f6151;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/registry.h;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/registry.h</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/rpc.c;fp=source/lib/registry/rpc.c;h=18b7607713f38f9a217929d5f3575096680be1a4;hp=2a6cabc3b803910a3aa845083922277dd8482f19;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/rpc.c;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/rpc.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/tests/hive.c;fp=source/lib/registry/tests/hive.c;h=22b4785222567f0b71238e32a4204f12e4930bfb;hp=36eea84d9404b6c78e40aab62321fd296abdff2e;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/tests/hive.c;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/tests/hive.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/tests/registry.c;fp=source/lib/registry/tests/registry.c;h=75fbe1cbea8bca48d2815d97b84e5387d132ac17;hp=2133e72310b81a485054386ceec25caea410c096;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/tests/registry.c;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/tests/registry.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/tools/regshell.c;fp=source/lib/registry/tools/regshell.c;h=93f28f3e5a803766541a399ab53c7610f7941892;hp=329d6ab6701fce208cd849d831fae5f73927768e;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/tools/regshell.c;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/lib/registry/tools/regshell.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/rpc_server/winreg/rpc_winreg.c;fp=source/rpc_server/winreg/rpc_winreg.c;h=681e3b918f870afc11f38ce47c81539fbd3ee8c0;hp=47c963ad293a17327422df9cf730c2e37b008dda;hb=6802965c3e5c4e3464c31cc4d3121f4d787752f0;hpb=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/rpc_server/winreg/rpc_winreg.c;h=6802965c3e5c4e3464c31cc4d3121f4d787752f0" title="history">H</a>] source/rpc_server/winreg/rpc_winreg.c</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>Fix listing remote predefined keys and subkeys. This fixes bug 3431.</title>
+<author>jelmer &lt;jelmer@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Mon, 7 Jan 2008 14:11:25 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=2d2857ca84fa8da0ed6473f29a42c67e3e089164</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=2d2857ca84fa8da0ed6473f29a42c67e3e089164</link>
+<description>Fix listing remote predefined keys and subkeys. This fixes bug 3431.</description>
+<content:encoded><![CDATA[
+<pre>
+Fix listing remote predefined keys and subkeys. This fixes bug 3431.
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26688 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/local.c;fp=source/lib/registry/local.c;h=35724e7ea6ef210366e78114730cf05c116968e0;hp=14b42797babe0efd409a6f719aa732eb36bdcbd5;hb=2d2857ca84fa8da0ed6473f29a42c67e3e089164;hpb=eca3c37f4fd5ae76d0f4bd19706255a1e51af23d" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/local.c;h=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="history">H</a>] source/lib/registry/local.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/registry.h;fp=source/lib/registry/registry.h;h=8273333b242bf06eb60a530c61caaf825d0f6151;hp=799971990954abd6bb262ce79acccbc7c06e5df2;hb=2d2857ca84fa8da0ed6473f29a42c67e3e089164;hpb=eca3c37f4fd5ae76d0f4bd19706255a1e51af23d" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/registry.h;h=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="history">H</a>] source/lib/registry/registry.h</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/rpc.c;fp=source/lib/registry/rpc.c;h=2a6cabc3b803910a3aa845083922277dd8482f19;hp=7f800b786e74357df7f77467d935e4f939a6820c;hb=2d2857ca84fa8da0ed6473f29a42c67e3e089164;hpb=eca3c37f4fd5ae76d0f4bd19706255a1e51af23d" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/rpc.c;h=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="history">H</a>] source/lib/registry/rpc.c</li>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/registry/tools/common.c;fp=source/lib/registry/tools/common.c;h=cec0f8b9066c31f65bccff63f0a786053ea0d355;hp=29e96475e6cc9a9751a6fe55cd57ca7aa93a2bf0;hb=2d2857ca84fa8da0ed6473f29a42c67e3e089164;hpb=eca3c37f4fd5ae76d0f4bd19706255a1e51af23d" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/registry/tools/common.c;h=2d2857ca84fa8da0ed6473f29a42c67e3e089164" title="history">H</a>] source/lib/registry/tools/common.c</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>python: Update status after feedback from abartlett.</title>
+<author>jelmer &lt;jelmer@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Mon, 7 Jan 2008 14:11:19 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=eca3c37f4fd5ae76d0f4bd19706255a1e51af23d</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=eca3c37f4fd5ae76d0f4bd19706255a1e51af23d</link>
+<description>python: Update status after feedback from abartlett.</description>
+<content:encoded><![CDATA[
+<pre>
+python: Update status after feedback from abartlett.
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26687 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/scripting/python/STATUS;fp=source/scripting/python/STATUS;h=c82275fff8dba5472993a3afd979ff74f6018063;hp=b39563da295df460a4c3db69f83092b89096107b;hb=eca3c37f4fd5ae76d0f4bd19706255a1e51af23d;hpb=3424aa2f2247c0245fbc9739af49996e6759c34e" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/scripting/python/STATUS;h=eca3c37f4fd5ae76d0f4bd19706255a1e51af23d" title="history">H</a>] source/scripting/python/STATUS</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>Fix bug 5143 by Jason Tarbet.  This prevented an easy cut-and-paste of</title>
+<author>abartlet &lt;abartlet@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Mon, 7 Jan 2008 05:50:04 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=3424aa2f2247c0245fbc9739af49996e6759c34e</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=3424aa2f2247c0245fbc9739af49996e6759c34e</link>
+<description>Fix bug 5143 by Jason Tarbet.  This prevented an easy cut-and-paste of</description>
+<content:encoded><![CDATA[
+<pre>
+Fix bug 5143 by Jason Tarbet.  This prevented an easy cut-and-paste of
+the provision options used.
+
+Andrew Bartlett
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26686 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/setup/provision;fp=source/setup/provision;h=161698ccf4183b7d3f2221d1fd7382b6a1259c30;hp=9d818fdc180af2873f4ce640d60383ec994264ee;hb=3424aa2f2247c0245fbc9739af49996e6759c34e;hpb=9cb95cd379a704c9227f74d12ad54279931d2466" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/setup/provision;h=3424aa2f2247c0245fbc9739af49996e6759c34e" title="history">H</a>] source/setup/provision</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>Fix bug 5137 by Mark Ridley.  The RPC-ATSVC test is not tested, so was</title>
+<author>abartlet &lt;abartlet@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Mon, 7 Jan 2008 05:41:16 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=9cb95cd379a704c9227f74d12ad54279931d2466</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=9cb95cd379a704c9227f74d12ad54279931d2466</link>
+<description>Fix bug 5137 by Mark Ridley.  The RPC-ATSVC test is not tested, so was</description>
+<content:encoded><![CDATA[
+<pre>
+Fix bug 5137 by Mark Ridley.  The RPC-ATSVC test is not tested, so was
+broken by &#39;ref&#39; changes long ago.
+
+We need a working script to aim against windows.
+
+Andrew Bartlett
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26685 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/torture/rpc/atsvc.c;fp=source/torture/rpc/atsvc.c;h=25ace8ac4905e73f046cf4c63337c2500d2f4129;hp=b0d1d1519d3f9cd43a575def6500fea1f0f5128f;hb=9cb95cd379a704c9227f74d12ad54279931d2466;hpb=72886a1a311c307f5e1357b6632b201377314c75" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/torture/rpc/atsvc.c;h=9cb95cd379a704c9227f74d12ad54279931d2466" title="history">H</a>] source/torture/rpc/atsvc.c</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>Trivial cleanup from Matthias Dieter Wallnöfer, from bug 5090</title>
+<author>abartlet &lt;abartlet@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Mon, 7 Jan 2008 05:22:14 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=72886a1a311c307f5e1357b6632b201377314c75</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=72886a1a311c307f5e1357b6632b201377314c75</link>
+<description>Trivial cleanup from Matthias Dieter Wallnöfer, from bug 5090</description>
+<content:encoded><![CDATA[
+<pre>
+Trivial cleanup from Matthias Dieter Wallnöfer, from bug 5090
+
+Andrew Bartlett
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26684 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/lib/ldb/ldb_tdb/ldb_index.c;fp=source/lib/ldb/ldb_tdb/ldb_index.c;h=d8776f48e254a53df309754a44f67acb3e1d98ac;hp=cf9380f8c089bf47e454d8d292acdbcfa6b6cbe0;hb=72886a1a311c307f5e1357b6632b201377314c75;hpb=c9762777a0700b0628f260f2cd8202be48c089e1" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/lib/ldb/ldb_tdb/ldb_index.c;h=72886a1a311c307f5e1357b6632b201377314c75" title="history">H</a>] source/lib/ldb/ldb_tdb/ldb_index.c</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>Add another testcase.  I still don&#39;t know what&#39;s wrong here.</title>
+<author>abartlet &lt;abartlet@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Mon, 7 Jan 2008 04:46:13 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=c9762777a0700b0628f260f2cd8202be48c089e1</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=c9762777a0700b0628f260f2cd8202be48c089e1</link>
+<description>Add another testcase.  I still don&#39;t know what&#39;s wrong here.</description>
+<content:encoded><![CDATA[
+<pre>
+Add another testcase.  I still don&#39;t know what&#39;s wrong here.
+
+Andrew Bartlett
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26683 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/torture/ldap/cldap.c;fp=source/torture/ldap/cldap.c;h=4e58059770f38da45c766b4632c5a08329e5c699;hp=bea4b08c8baee87c63db22a33356181bd094800f;hb=c9762777a0700b0628f260f2cd8202be48c089e1;hpb=61e50a2d38d193489a5820fbb387a6ad72cde4ff" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/torture/ldap/cldap.c;h=c9762777a0700b0628f260f2cd8202be48c089e1" title="history">H</a>] source/torture/ldap/cldap.c</li>
+</ul>]]>
+</content:encoded>
+</item>
+<item>
+<title>Move CLDAP to the modern torture system, and add value checking.</title>
+<author>abartlet &lt;abartlet@0c0555d6-39d7-0310-84fc-f1cc0bd64818&gt;</author>
+<pubDate>Mon, 7 Jan 2008 03:15:39 +0000</pubDate>
+<guid isPermaLink="true">http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=61e50a2d38d193489a5820fbb387a6ad72cde4ff</guid>
+<link>http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=commitdiff;h=61e50a2d38d193489a5820fbb387a6ad72cde4ff</link>
+<description>Move CLDAP to the modern torture system, and add value checking.</description>
+<content:encoded><![CDATA[
+<pre>
+Move CLDAP to the modern torture system, and add value checking.
+
+Andrew Bartlett
+
+
+git-svn-id: svn+ssh://svn.samba.org/data/svn/samba/branches/SAMBA_4_0@26682 0c0555d6-39d7-0310-84fc-f1cc0bd64818
+</pre><ul>
+<li>[<a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=blobdiff;f=source/torture/ldap/cldap.c;fp=source/torture/ldap/cldap.c;h=bea4b08c8baee87c63db22a33356181bd094800f;hp=59def798452b10cfe30c51164c938e26221a18c5;hb=61e50a2d38d193489a5820fbb387a6ad72cde4ff;hpb=764febecea07cea95defa70311b507fa5de2eccd" title="diff">D</a><a href="http://git.samba.org/rsync.git/?p=samba-svnmirror.git;a=history;f=source/torture/ldap/cldap.c;h=61e50a2d38d193489a5820fbb387a6ad72cde4ff" title="history">H</a>] source/torture/ldap/cldap.c</li>
+</ul>]]>
+</content:encoded>
+</item>
+</channel>
+</rss>
